@@ -87,7 +87,7 @@ public class ArtificialNeuron {
             out.println("Weight " + i + ": " + neuron.getWeight(i));
         }
 
-        // Scale weights
+         // Example "client usage": scaling weights to simulate learning
         neuron.scaleWeights(2.0);
 
         out.println("\nAfter Scaling by 2:");
@@ -95,7 +95,7 @@ public class ArtificialNeuron {
             out.println("Weight " + i + ": " + neuron.getWeight(i));
         }
 
-        // Update a weight
+        // Update a weight to simulate retraining
         neuron.setWeight(1, 10.0);
 
         out.println("\nAfter Updating Index 1:");
@@ -103,11 +103,8 @@ public class ArtificialNeuron {
             out.println("Weight " + i + ": " + neuron.getWeight(i));
         }
 
-        // Clear weights
+        // Clear weights to simulate reset
         neuron.clearWeights();
-
-        out.println("\nAfter Clearing:");
-        out.println("Weight Count: " + neuron.weightCount());
 
         in.close();
         out.close();
