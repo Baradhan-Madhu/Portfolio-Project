@@ -1,7 +1,7 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
+- **Name**: Baradhan Madhavan<!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
+- **Dot Number**: Madhavan.43<!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
 - **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
 
 ## Assignment Overview
@@ -307,18 +307,25 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+typically in the past i mostly just code things without really setting up any like "task system" but like having steps and Change looks is kind of a good new change for me so I think it overall helped me better understand what actual software devs do.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+A few. The biggest one was writing convention and correspondence
+clauses. I had seen them in lecture but never had to write my own
+until Phase 5. Another gap was JUnit testing without
+a reference implementation. I'd always tested against a known-good
+version before, so writing tests that verify state through other
+kernel calls was new.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+Ya, im more interested in software dev. I picked an artificial neuron because I'm interested in
+machine learning, and being able to ship something I designed end-to-end
+made the topic feel real instead of random.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,25 +333,49 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+- Designing component APIs from scratch (kernel vs. secondary split,
+  writing contracts, choosing representations)
+- Implementing abstract classes that respect interface contracts
+- Writing JUnit tests without a reference implementation
+- Using Git branches and pull requests for iterative work
+- Documenting code with Javadoc and design-by-contract annotations
+- Reading existing API source as a learning tool
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+- Designed and implemented an artificial neuron component in Java
+  following the OSU software sequence discipline, including a kernel
+  interface, enhanced interface, abstract class, and concrete
+  ArrayList-based implementation
+- Wrote a comprehensive JUnit 4 test suite covering 50+ test cases
+  across kernel, Standard, secondary, and Object methods
+- Authored two end-to-end use case demos (a perceptron classifier and
+  a weighted scoring engine) showcasing different applications of the
+  same component
+- Practiced version control with Git, including feature branching,
+  pull requests, and CHANGELOG maintenance for a multi-phase project
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+I dont know if im any more interested in this but not rlly less it just seemed like a lot of work but the output is cool.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+Things I could do next:
+- Explore an internship in either software engineering or applied ML
+- Build out a personal GitHub portfolio with a few more projects of
+  comparable scope
+
+Possible mentors:
+- A CSE professor whose research touches on ML or software design
+
+- A senior in CSE or someone working in industry
 
 ### Changelog
 
