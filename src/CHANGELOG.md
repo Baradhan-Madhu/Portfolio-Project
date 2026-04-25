@@ -10,6 +10,29 @@ the following form: YYYY.0M.0D.
 
 ### Added
 
+- Implemented kernel class `ArtificialNeuron1L` for the ArtificialNeuron
+  component
+- Selected `ArrayList<Double>` as the representation
+- Defined convention and correspondence for the representation
+- Implemented all kernel methods (`addWeight`, `setWeight`, `getWeight`,
+  `weightCount`) and Standard methods (`clear`, `newInstance`,
+  `transferFrom`)
+
+## 2026.04.24
+
+### Added
+
+- Designed abstract class `ArtificialNeuronSecondary` for the
+  ArtificialNeuron component
+- Implemented secondary methods (`scaleWeights`, `sumWeights`,
+  `dotProduct`) using only kernel and Standard methods
+- Implemented `toString`, `equals`, and `hashCode` using only kernel
+  methods
+
+## 2026.04.24
+
+### Added
+
 - Designed kernel and enhanced interfaces for ArtificialNeuron component
 - Added hierarchy diagram for ArtificialNeuron component
 
