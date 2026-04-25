@@ -6,6 +6,41 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Calendar Versioning](https://calver.org/) of
 the following form: YYYY.0M.0D.
 
+## 2026.04.24
+
+### Added
+
+- Designed kernel and enhanced interfaces for ArtificialNeuron component
+- Added hierarchy diagram for ArtificialNeuron component
+
+### Updated
+
+- Moved `weightCount` from secondary to kernel interface (needed for
+  iteration in secondary methods)
+- Removed `clearWeights` from secondary (redundant with `Standard.clear`)
+- Added `sumWeights` and `dotProduct` secondary methods to provide more
+  meaningful neuron operations
+
+## 2026.02.26
+
+### Added
+
+- Implemented a proof-of-concept Java class for the ArtificialNeuron
+  component
+- Added kernel method implementations: `addWeight`, `setWeight`, and
+  `getWeight`
+- Added secondary method implementations: `weightCount`, `clearWeights`,
+  and `scaleWeights`
+- Added a main method demonstrating weight initialization, scaling,
+  updating, and reset
+
+## 2026.01.29
+
+### Added
+
+- Brainstormed three candidate component designs
+- Selected ArtificialNeuron as the primary design to move forward with
+
 ## [Unreleased]
 
 - Disabled an aspect of the coderunner extension
